@@ -34,7 +34,7 @@ public class Server {
                    out.println(String.format("%sВ окно можно увидеть ?", server));
 
                     fromClient = in.readLine();
-                    out.println(String.format("%s %s", client,fromClient));
+                    out.println(String.format("%s %s", client, fromClient));
 
                     if(fromClient.equals("Конечно")){
                         out.println(String.format("%sУже смотрю", server));

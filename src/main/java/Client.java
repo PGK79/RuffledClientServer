@@ -14,7 +14,6 @@ public class Client {
 
              BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()))) {
 
-
             out.println("Самый лучший клиент");
 
             String resp = in.readLine();
@@ -37,6 +36,7 @@ public class Client {
             System.out.println(resp);
 
             out.println("Конечно");
+
             resp = in.readLine();
             System.out.println(resp);
 
